@@ -1,0 +1,9 @@
+.SaveCity {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -10px;
+
+  &__haveNot {
+    padding: 10px;
+  }
+}

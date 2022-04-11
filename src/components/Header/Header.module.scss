@@ -1,0 +1,29 @@
+@import '../../styles/var';
+
+.Header {
+  padding: $padding;
+  display: flex;
+  justify-content: space-between;
+
+  &__wrap {
+    gap: $padding;
+    display: flex;
+    align-items: center;
+  }
+
+  &__logo {
+    width: 65px;
+    height: 65px;
+  }
+
+  &__link {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+
+  &__select {
+    width: 150px;
+  }
+}

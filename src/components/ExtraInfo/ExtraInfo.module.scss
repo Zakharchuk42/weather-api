@@ -1,0 +1,36 @@
+@import '../../styles/var';
+
+.ExtraInfo {
+  display: flex;
+  flex-direction: column;
+  padding: $padding;
+
+  &__card {
+    height: 100%;
+  }
+
+  &__rowInfo {
+    font-size: 26px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: $color-dark;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    p {
+      color: $color-main;
+      margin: 0 $padding 0 0;
+    }
+  }
+
+  &__ico {
+    width: 40px;
+    height: auto;
+    margin-right: 10px;
+  }
+}

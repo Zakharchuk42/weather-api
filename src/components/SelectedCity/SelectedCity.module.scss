@@ -1,0 +1,18 @@
+@import '../../styles/var';
+
+.SelectedCity {
+  display: flex;
+  gap: $padding;
+  margin: -10px;
+  justify-content: center;
+  min-height: 295px;
+
+  &__title {
+    display: flex;
+    align-items: center;
+  }
+
+  &__card {
+    padding: $padding;
+  }
+}

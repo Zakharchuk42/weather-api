@@ -1,0 +1,27 @@
+@import '../../styles/var';
+
+.AllInfo {
+  display: flex;
+  flex-direction: column;
+  padding: $padding 0;
+  gap: $padding;
+
+  &__innerHeader {
+    display: flex;
+    align-items: center;
+  }
+
+  &__goBack {
+    width: 40px;
+    height: auto;
+    cursor: pointer;
+  }
+
+  &__title {
+    font-size: 38px;
+    font-weight: 700;
+    text-align: center;
+    color: $color-main;
+    width: 100%;
+  }
+}

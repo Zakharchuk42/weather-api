@@ -1,0 +1,72 @@
+@import '../../styles/var';
+
+.ShortInfoCity {
+
+  &__wrap {
+    padding: $padding;
+
+    &:hover {
+      .ShortInfoCity__city, .ShortInfoCity__ico_text {
+        color: $color-main;
+      }
+    }
+  }
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__city {
+    font-size: 26px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: $color-gray;
+    transition: all .3s ease-in-out;
+  }
+
+  &__day {
+    color: $color-gray;
+  }
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+  }
+
+  &__temp {
+    font-size: 88px;
+    font-weight: 700;
+    color: $color-main;
+  }
+
+  &__ico {
+    text-align: right;
+
+    &_text {
+      color: $color-gray;
+      text-transform: capitalize;
+      width: max-content;
+    }
+  }
+
+  &__buttons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: $padding;
+  }
+
+  &__button {
+    cursor: pointer;
+    width: 30px;
+    height: auto;
+    transition: all .3s ease-in-out;
+
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+}

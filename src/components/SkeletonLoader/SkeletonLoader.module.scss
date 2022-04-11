@@ -1,0 +1,10 @@
+@import '../../styles/var';
+
+.SkeletonLoader {
+  width: 351px;
+  height: 271px;
+
+  &__card {
+    padding: $padding;
+  }
+}
